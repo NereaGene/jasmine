@@ -57,6 +57,12 @@ describe("Cliente", function () {
         
         
     });
+    it("El setNombre debería establecer una valor", function(){
+        var nombre="Pepe";
+        cliente.setNombre(nombre);
+        expect(cliente.nombre).toEqual(nombre);
+        
+    });
     afterEach(function () {
         console.log("Aquí podríamos limpiar datos");
     });

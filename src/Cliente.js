@@ -6,6 +6,9 @@ class Cliente{
         this.active=active;
         this.age=age;
     }
+     setNombre(nombre){
+        this.nombre=nombre;
+     }
     imprimeDatos(){
         this.imprime();
     }
