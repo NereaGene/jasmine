@@ -9,6 +9,9 @@ class Cliente{
      setNombre(nombre){
         this.nombre=nombre;
      }
+    getNombre(){
+        return.this.nombre;    
+    }
     imprimeDatos(){
         this.imprime();
     }
